@@ -40,7 +40,7 @@ def BuzzerAverageTweets():
     time, time_type = os.getenv('BUZZER_AVERAGE_TWEET').split(' ')
     time = int(time)
     if (time_type[0] == 'm'):
-        time /= 60
+        time = time / 60
     return time
 
 def WordCount(user):

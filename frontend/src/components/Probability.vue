@@ -1,7 +1,5 @@
 <template>
   <div class="hello">
-    <h2>Buzzer Checker</h2>
-    <h4>by TubesForLyfe</h4>
     <p>Input some Twitter username</p>
     <form @submit.prevent="CheckUsername">
       <input type="text" v-model="username" />
